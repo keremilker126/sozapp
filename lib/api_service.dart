@@ -5,7 +5,7 @@ import 'package:http/http.dart' as http;
 
 class ApiService {
   // Emülatör kullanıyorsan 10.0.2.2, fiziksel cihazsa kendi IP'ni yazmalısın.
-  static const String baseUrl = "http://localhost:5136/api/SozApi"; 
+  static const String baseUrl = "http://10.0.2.2:5136/api/SozApi"; 
 
   // Listeleme (GET)
   Future<List<Soz>> getSozler() async {
